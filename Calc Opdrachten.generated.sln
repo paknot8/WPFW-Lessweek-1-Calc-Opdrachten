@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calc Opdrachten", "WPFW-Lessweek-1-Calc-Opdrachten\Calc Opdrachten.csproj", "{476258B1-3977-47DA-8486-36F735B0AE4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{476258B1-3977-47DA-8486-36F735B0AE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476258B1-3977-47DA-8486-36F735B0AE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476258B1-3977-47DA-8486-36F735B0AE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476258B1-3977-47DA-8486-36F735B0AE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A17054A3-C3E1-45A6-B91F-E111E996533A}
+	EndGlobalSection
+EndGlobal
