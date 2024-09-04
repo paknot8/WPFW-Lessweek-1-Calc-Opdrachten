@@ -6,6 +6,7 @@ namespace Calc_Opdrachten
     {
         static void Main(string[] args)
         {
+            // --- Un Comment one by one to test each task ---
             // OpdrachtCalc1();
             // OpdrachtCalc2();
             OpdrachtCalc3();
@@ -104,13 +105,12 @@ namespace Calc_Opdrachten
                 Console.WriteLine("Please try again, enter a integer number.");
                 number = 0;
                 OpdrachtCalc3();
+                return; // this is important otherwise it will continue after the condition
             }
             
-            SomInt somInt = new SomInt(number);
+            SomInt somInt = new SomInt(number); // Create the Object
 
-            Console.WriteLine(somInt.Value);
-
-            // Integer can be 9 numbers
+            // Cannot go over the max value of 2147483647
             if(somInt.Value > int.MaxValue)
             {
                 Console.WriteLine($"{somInt.Value} cannot be greater than the maximum int number {int.MaxValue}");
