@@ -17,10 +17,10 @@ class SomInt
     }
 
     // Constructor to addition two SomInts
-    public SomInt(SomInt somInt1, SomInt somInt2)
-    {
-        Value = somInt1.Value + somInt2.Value;
-    }
+    // public SomInt(SomInt somInt1, SomInt somInt2)
+    // {
+    //     Value = somInt1.Value + somInt2.Value;
+    // }
 
     // check this there is an error if you comment out the one above
     public static SomInt operator +(SomInt somInt1, SomInt somInt2)

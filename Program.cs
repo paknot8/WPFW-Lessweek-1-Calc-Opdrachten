@@ -75,6 +75,9 @@ namespace Calc_Opdrachten
                 return;
             }
 
+            new SomInt(10,10);
+            //Console.WriteLine($"Samen {new SomInt(10).Value}");
+
             // Calculate in the Class SomInt
             SomInt somInt1 = new SomInt(number1, number2);
             Console.WriteLine($"{number1} and {number2} is result: {somInt1.Value}");
@@ -84,8 +87,8 @@ namespace Calc_Opdrachten
 
             // SomInts addition together
             Console.WriteLine("--- This is the two SomInt's addition to each other ---");
-            SomInt somIntsTogether = new SomInt(somInt1, somInt2);
-            Console.WriteLine($"SomInt1 {somInt1.Value} and SomInt2 {somInt2.Value} is result: {somIntsTogether.Value}");
+            SomInt somIntsTogether = new SomInt(somInt1.Value, somInt2.Value);
+            Console.WriteLine($"SomInt1 {somInt1.Value} + SomInt2 {somInt2.Value} is result: {somIntsTogether.Value}");
         }
 
         public static void OpdrachtCalc3()
