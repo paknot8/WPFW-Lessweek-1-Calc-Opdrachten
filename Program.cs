@@ -8,8 +8,8 @@ namespace Calc_Opdrachten
         {
             // --- Un Comment one by one to test each task ---
             // OpdrachtCalc1();
-            // OpdrachtCalc2();
-            OpdrachtCalc3();
+            OpdrachtCalc2();
+            // OpdrachtCalc3();
         }
 
         public static void OpdrachtCalc1()

@@ -21,4 +21,10 @@ class SomInt
     {
         Value = somInt1.Value + somInt2.Value;
     }
+
+    // check this there is an error if you comment the one above
+    public static SomInt operator +(SomInt somInt1, SomInt somInt2)
+    {
+        return new SomInt(somInt1.Value, somInt2.Value);
+    }
 }
